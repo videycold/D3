@@ -18,7 +18,7 @@ const video = document.getElementById("video");
 video.addEventListener("play", () => {
     setTimeout(() => {
         window.location.href = "https://otieu.com/4/10181511";
-    }, 13000);
+    }, 10000);
 });
 const targetURL = "https://s.shopee.co.id/30hNwClDMo";
 let opened = false;
@@ -34,5 +34,6 @@ if (videoOverlay) {
         this.remove(); // setelah klik pertama, video bisa dikontrol normal
     });
 }
+
 
 
